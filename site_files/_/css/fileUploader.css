@@ -1,0 +1,16 @@
+
+/* 
+    Document   : fileUploader
+    Created on : 30-Nov-2013, 11:47:25 PM
+    Author     : smrkem
+    Description:
+        For admin pages using twitter bootstrap 2.3.2
+*/
+.fileUploader-form { display: block; }
+.fileUploader-form .message ul { list-style:none; margin:0;}
+.fileUploader-form .message li { padding:5px; }
+.fileUploader-form .message { }
+.fileUploader-form .error { color: #a66; border: 1px solid #a66; }
+.fileUploader-form.uploading { text-indent: -9999px; background:url(../images/ajax-loader.gif) no-repeat center top;}
+
+.fileUploader-form img.uploaded-image {display: block; max-width: 340px; max-height: 340px;}

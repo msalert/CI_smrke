@@ -1,0 +1,154 @@
+[11-May-2013 01:33:56] okkkkk
+[11-May-2013 01:48:35] CSRF state token does not match one provided.
+[11-May-2013 01:48:59] CSRF state token does not match one provided.
+[11-May-2013 01:53:18] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/electron/public_html/citytot/application/libraries/fb_client/base_facebook.php on line 1254
+[11-May-2013 01:53:27] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/electron/public_html/citytot/application/libraries/fb_client/base_facebook.php on line 1254
+[11-May-2013 01:55:49] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/electron/public_html/citytot/application/libraries/fb_client/base_facebook.php on line 1254
+[11-May-2013 01:56:31] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home/electron/public_html/citytot/application/libraries/fb_client/base_facebook.php on line 1254
+[11-May-2013 01:59:51] PHP Fatal error:  Call to undefined method Fbconnect::get_user() in /home/electron/public_html/citytot/application/controllers/login.php on line 13
+[11-May-2013 02:16:36] This app is in sandbox mode.  Edit the app configuration at http://developers.facebook.com/apps to make the app publicly visible.
+[12-May-2013 03:12:12] PHP Fatal error:  Call to a member function setApplicationName() on a non-object in /home/electron/public_html/citytot/application/controllers/glogin.php on line 10
+[12-May-2013 03:12:57] PHP Fatal error:  Call to undefined method stdClass::setDeveloperKey() in /home/electron/public_html/citytot/application/libraries/g_client/Google_Client.php on line 219
+[12-May-2013 03:15:28] PHP Fatal error:  Call to undefined method stdClass::setDeveloperKey() in /home/electron/public_html/citytot/application/libraries/g_client/Google_Client.php on line 219
+[12-May-2013 03:16:14] PHP Fatal error:  Class 'Goog_client' not found in /home/electron/public_html/citytot/application/controllers/glogin.php on line 9
+[12-May-2013 03:38:30] PHP Fatal error:  Call to undefined method Google_Client::_construct() in /home/electron/public_html/citytot/application/libraries/Gconnect.php on line 9
+[12-May-2013 04:01:38] PHP Fatal error:  Cannot access empty property in /home/electron/public_html/citytot/application/libraries/Gconnect.php on line 21
+[01-Jun-2013 00:52:22] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_request'' in /home/electron/public_html/citytot/application/libraries/g_client/auth/Google_OAuth2.php:114
+Stack trace:
+#0 /home/electron/public_html/citytot/application/libraries/g_client/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/electron/public_html/citytot/application/controllers/login.php(70): Google_Client->authenticate()
+#2 /home/electron/public_html/citytot/system/core/CodeIgniter.php(363): Login->g_login()
+#3 /home/electron/public_html/citytot/index.php(203): require_once('/home/electron/...')
+#4 {main}
+  thrown in /home/electron/public_html/citytot/application/libraries/g_client/auth/Google_OAuth2.php on line 114
+[31-May-2013 21:05:33] PHP Fatal error:  Cannot assign by reference to overloaded object in /home/electron/public_html/citytot/application/models/classes_m.php on line 11
+[02-Jun-2013 00:48:19] PHP Fatal error:  Call to a member function Data() on a non-object in /home/electron/public_html/citytot/application/controllers/login.php on line 114
+[02-Jun-2013 01:45:08] PHP Fatal error:  Call to a member function register_user() on a non-object in /home/electron/public_html/citytot/application/controllers/login.php on line 122
+[02-Jun-2013 22:16:57] PHP Fatal error:  Cannot redeclare Users::logout() in /home/electron/public_html/citytot/application/controllers/users.php on line 40
+[03-Jun-2013 03:34:34] access_denied
+[03-Jun-2013 14:36:31] 
+[03-Jun-2013 15:49:56] FB login error:
+[03-Jun-2013 15:51:03] FB login error:Permissions error
+[03-Jun-2013 20:51:39] access_denied
+[03-Jun-2013 15:52:37] FB login error:Permissions error
+[03-Jun-2013 20:55:18] access_denied
+[04-Jun-2013 01:16:16] PHP Parse error:  syntax error, unexpected '}' in /home/electron/public_html/citytot/application/controllers/users.php on line 78
+[04-Jun-2013 01:17:24] FB login error:Permissions error
+[04-Jun-2013 01:25:17] FB login error:Permissions error:user_denied
+[04-Jun-2013 01:29:19] FB login error::
+[04-Jun-2013 01:30:35] FB login error: Code 2
+[04-Jun-2013 01:32:51] FB login error: Code 2
+[04-Jun-2013 02:11:47] PHP Fatal error:  Call to a member function get_user_with_email() on a non-object in /home/electron/public_html/citytot/application/controllers/users.php on line 60
+[04-Jun-2013 02:12:11] CSRF state token does not match one provided.
+[04-Jun-2013 07:13:26] access_denied
+[04-Jun-2013 07:17:51] Google login error: access_denied
+[04-Jun-2013 07:43:45] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/oauth2/v2/userinfo?key=AIzaSyCtiq5ZGC5gdGUwj2mS6MMq0ELEcQJ7-wc: (503) Backend Error' in /home/electron/public_html/citytot/application/libraries/g_client/io/Google_REST.php:66
+Stack trace:
+#0 /home/electron/public_html/citytot/application/libraries/g_client/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/electron/public_html/citytot/application/libraries/g_client/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/electron/public_html/citytot/application/libraries/g_client/contrib/Google_Oauth2Service.php(37): Google_ServiceResource->__call('get', Array)
+#3 /home/electron/public_html/citytot/application/controllers/users.php(106): Google_UserinfoServiceResource->get()
+#4 /home/electron/public_html/citytot/system/core/CodeIgniter.php(363): Users->g_login()
+#5 /home/electron/public_html/citytot/index.php(203): require_ in /home/electron/public_html/citytot/application/libraries/g_client/io/Google_REST.php on line 66
+[04-Jun-2013 14:28:47] FB login error: Code 2
+[06-Jun-2013 13:48:22] CSRF state token does not match one provided.
+[06-Jun-2013 13:58:31] FB login error: Code 2
+[06-Jun-2013 13:58:44] FB login error: Code 2
+[06-Jun-2013 15:39:21] CSRF state token does not match one provided.
+[06-Jun-2013 21:28:05] Google login error: access_denied
+[06-Jun-2013 22:25:52] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/electron/public_html/citytot/application/libraries/g_client/auth/Google_OAuth2.php:114
+Stack trace:
+#0 /home/electron/public_html/citytot/application/libraries/g_client/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/electron/public_html/citytot/application/controllers/users.php(103): Google_Client->authenticate()
+#2 /home/electron/public_html/citytot/system/core/CodeIgniter.php(363): Users->g_login()
+#3 /home/electron/public_html/citytot/index.php(203): require_once('/home/electron/...')
+#4 {main}
+  thrown in /home/electron/public_html/citytot/application/libraries/g_client/auth/Google_OAuth2.php on line 114
+[06-Jun-2013 22:56:44] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/electron/public_html/citytot/application/libraries/g_client/auth/Google_OAuth2.php:114
+Stack trace:
+#0 /home/electron/public_html/citytot/application/libraries/g_client/Google_Client.php(131): Google_OAuth2->authenticate(Array, NULL)
+#1 /home/electron/public_html/citytot/application/controllers/users.php(108): Google_Client->authenticate()
+#2 /home/electron/public_html/citytot/system/core/CodeIgniter.php(363): Users->g_login()
+#3 /home/electron/public_html/citytot/index.php(203): require_once('/home/electron/...')
+#4 {main}
+  thrown in /home/electron/public_html/citytot/application/libraries/g_client/auth/Google_OAuth2.php on line 114
+[07-Jun-2013 14:43:37] PHP Fatal error:  Call to a member function set_rules() on a non-object in /home/electron/public_html/citytot/application/controllers/users.php on line 23
+[07-Jun-2013 16:07:51] PHP Parse error:  syntax error, unexpected T_PUBLIC in /home/electron/public_html/citytot/application/models/user_m.php on line 313
+[07-Jun-2013 16:09:04] PHP Parse error:  syntax error, unexpected T_PUBLIC in /home/electron/public_html/citytot/application/models/user_m.php on line 329
+[07-Jun-2013 16:09:08] PHP Parse error:  syntax error, unexpected T_PUBLIC in /home/electron/public_html/citytot/application/models/user_m.php on line 329
+[07-Jun-2013 16:09:11] PHP Parse error:  syntax error, unexpected T_PUBLIC in /home/electron/public_html/citytot/application/models/user_m.php on line 329
+[07-Jun-2013 16:09:25] PHP Parse error:  syntax error, unexpected T_PUBLIC in /home/electron/public_html/citytot/application/models/user_m.php on line 329
+[07-Jun-2013 16:10:13] PHP Parse error:  syntax error, unexpected T_PUBLIC in /home/electron/public_html/citytot/application/models/user_m.php on line 313
+[08-Jun-2013 15:37:36] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/electron/public_html/citytot/application/models/classes_m.php on line 26
+[10-Jun-2013 01:06:55] PHP Fatal error:  Function name must be a string in /home/electron/public_html/citytot/application/views/search-v.php on line 30
+[10-Jun-2013 02:12:08] PHP Parse error:  syntax error, unexpected T_STRING in /home/electron/public_html/citytot/application/views/search-v.php on line 58
+[11-Jun-2013 05:47:49] PHP Fatal error:  Call to undefined method Classes_m::temp_classes_class_type() in /home/electron/public_html/citytot/application/controllers/search.php on line 17
+[16-Jun-2013 19:47:02] PHP Fatal error:  Call to undefined method Classes_m::enter_zipcode() in /home/electron/public_html/citytot/application/controllers/search.php on line 31
+[17-Jun-2013 17:58:52] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/electron/public_html/citytot/application/models/classes_m.php on line 33
+[18-Jun-2013 17:24:15] PHP Parse error:  syntax error, unexpected T_ELSE in /home/electron/public_html/citytot/application/controllers/users.php on line 437
+[20-Jun-2013 16:11:25] FB login error: Code 200
+[24-Jun-2013 18:28:40] PHP Fatal error:  Call to undefined method Page::style() in /home/electron/public_html/citytot/application/controllers/users.php on line 270
+[24-Jun-2013 23:42:19] PHP Fatal error:  Call to undefined method CI_Form_validation::error_array() in /home/electron/public_html/citytot/application/controllers/users.php on line 329
+[24-Jun-2013 23:43:47] PHP Fatal error:  Call to undefined method CI_Form_validation::_error_array() in /home/electron/public_html/citytot/application/controllers/users.php on line 329
+[25-Jun-2013 05:16:17] PHP Fatal error:  Call to undefined method CI_Encrypt::encrypt() in /home/electron/public_html/citytot/application/views/search-v.php on line 56
+[25-Jun-2013 05:19:51] PHP Fatal error:  Call to undefined method CI_Encrypt::encrypt() in /home/electron/public_html/citytot/application/views/search-v.php on line 57
+[25-Jun-2013 05:25:52] PHP Fatal error:  Call to undefined method CI_Encrypt::encrypt() in /home/electron/public_html/citytot/application/controllers/search.php on line 9
+[25-Jun-2013 13:14:09] PHP Fatal error:  Call to undefined method Classes_m::log_error() in /home/electron/public_html/citytot/application/controllers/review.php on line 14
+[25-Jun-2013 19:14:03] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/electron/public_html/citytot/application/core/MY_Controller.php on line 12
+[25-Jun-2013 20:13:20] PHP Fatal error:  Cannot redeclare character_limiter() (previously declared in /home/electron/public_html/citytot/application/core/MY_Controller.php:19) in /home/electron/public_html/citytot/application/controllers/home.php on line 26
+[25-Jun-2013 20:30:54] PHP Fatal error:  Call to a member function first_name() on a non-object in /home/electron/public_html/citytot/application/views/admin/admin_header.php on line 16
+[25-Jun-2013 20:31:44] PHP Fatal error:  Call to undefined method stdClass::first_name() in /home/electron/public_html/citytot/application/views/admin/admin_header.php on line 16
+[28-Jun-2013 04:39:13] PHP Fatal error:  Call to a member function log_error() on a non-object in /home/electron/public_html/citytot/application/libraries/Smrke.php on line 18
+[28-Jun-2013 16:24:20] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/electron/public_html/citytot/application/models/reviews_m.php on line 158
+[28-Jun-2013 16:25:10] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/electron/public_html/citytot/application/models/reviews_m.php on line 157
+[28-Jun-2013 20:46:27] PHP Fatal error:  Call to a member function get_users() on a non-object in /home/electron/public_html/citytot/application/controllers/site_administration.php on line 33
+[29-Jun-2013 02:00:31] PHP Fatal error:  Call to a member function set_userdata() on a non-object in /home/electron/public_html/citytot/application/libraries/Smrke.php on line 24
+[29-Jun-2013 02:01:24] PHP Fatal error:  Call to a member function set_userdata() on a non-object in /home/electron/public_html/citytot/application/libraries/Smrke.php on line 23
+[29-Jun-2013 15:39:23] PHP Parse error:  syntax error, unexpected T_ELSE in /home/electron/public_html/citytot/application/views/search-v.php on line 63
+[29-Jun-2013 21:29:17] PHP Fatal error:  Call to undefined method Smrke::error_redirect() in /home/electron/public_html/citytot/application/controllers/review.php on line 66
+[30-Jun-2013 04:57:00] PHP Fatal error:  Cannot use object of type stdClass as array in /home/electron/public_html/citytot/application/views/find_class_to_review-v.php on line 7
+[04-Jul-2013 01:41:23] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in /home/electron/public_html/citytot/application/models/reviews_m.php on line 559
+[12-Jul-2013 02:01:47] PHP Fatal error:  Call to a member function query() on a non-object in /home/electron/public_html/citytot/application/models/classes_m.php on line 668
+[25-Jul-2013 14:42:39] PHP Fatal error:  Call to undefined method Classes_m::get_class_categories() in /home/electron/public_html/citytot/application/controllers/site_administration.php on line 94
+[25-Jul-2013 19:43:29] PHP Fatal error:  Call to undefined method Classes_m::get_providers() in /home/electron/public_html/citytot/application/controllers/review.php on line 112
+[25-Jul-2013 19:49:00] PHP Fatal error:  Call to undefined method Classes_m::get_providers() in /home/electron/public_html/citytot/application/controllers/site_administration.php on line 67
+[25-Jul-2013 20:54:06] PHP Fatal error:  Call to undefined method Classes_m::get_provider_locations() in /home/electron/public_html/citytot/application/controllers/site_administration.php on line 158
+[27-Jul-2013 23:20:01] PHP Fatal error:  Call to undefined method Classes_m::get_provider_locations() in /home/electron/public_html/citytot/application/controllers/site_administration.php on line 138
+[31-Jul-2013 18:00:01] PHP Fatal error:  Call to undefined method Classes_m::get_provider_locations() in /home/electron/public_html/citytot/application/controllers/site_administration.php on line 138
+[31-Jul-2013 18:00:11] PHP Fatal error:  Call to undefined method Classes_m::get_provider_locations() in /home/electron/public_html/citytot/application/controllers/site_administration.php on line 138
+[31-Jul-2013 18:05:30] PHP Fatal error:  Call to undefined method Classes_m::get_provider_locations() in /home/electron/public_html/citytot/application/controllers/site_administration.php on line 138
+[31-Jul-2013 18:08:44] PHP Fatal error:  Call to undefined method Classes_m::get_provider_locations() in /home/electron/public_html/citytot/application/controllers/site_administration.php on line 138
+[31-Jul-2013 18:18:37] PHP Fatal error:  Call to undefined method Classes_m::get_provider_locations() in /home/electron/public_html/citytot/application/controllers/site_administration.php on line 138
+[31-Jul-2013 18:20:19] PHP Fatal error:  Call to a member function get_providers_locations() on a non-object in /home/electron/public_html/citytot/application/controllers/site_administration.php on line 139
+[31-Jul-2013 18:20:51] PHP Fatal error:  Call to undefined method Providers_m::get_providers_locations() in /home/electron/public_html/citytot/application/controllers/site_administration.php on line 139
+[02-Aug-2013 21:06:53] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'inc/providers_admin' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/electron/public_html/citytot/application/controllers/site_administration.php on line 14
+[02-Aug-2013 21:08:00] PHP Fatal error:  Cannot use [] for reading in /home/electron/public_html/citytot/application/controllers/site_administration.php on line 18
+[02-Aug-2013 21:18:40] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/electron/public_html/citytotproviders_admin' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/electron/public_html/citytot/application/controllers/site_administration.php on line 14
+[02-Aug-2013 21:19:33] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/electron/public_html/citytotproviders_admin' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/electron/public_html/citytot/application/controllers/site_administration.php on line 14
+[02-Aug-2013 21:19:37] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/electron/public_html/citytotproviders_admin' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/electron/public_html/citytot/application/controllers/site_administration.php on line 14
+[02-Aug-2013 21:19:40] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/electron/public_html/citytotproviders_admin' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/electron/public_html/citytot/application/controllers/site_administration.php on line 14
+[02-Aug-2013 21:20:04] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/electron/public_html/citytot/controllers/inc/providers_admin' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/electron/public_html/citytot/application/controllers/site_administration.php on line 14
+[02-Aug-2013 21:20:28] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/electron/public_html/citytot/application/controllers/inc/providers_admin' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/electron/public_html/citytot/application/controllers/site_administration.php on line 14
+[02-Aug-2013 21:23:27] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/electron/public_html/citytot/application/controllers/inc/providers_admin' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/electron/public_html/citytot/application/controllers/site_administration.php on line 14
+[02-Aug-2013 21:24:33] PHP Parse error:  syntax error, unexpected T_PUBLIC in /home/electron/public_html/citytot/application/controllers/inc/providers_admin.php on line 3
+[03-Aug-2013 11:26:08] PHP Fatal error:  Call to a member function get_providers_admin() on a non-object in /home/electron/public_html/citytot/application/controllers/admin_providers.php on line 23
+[03-Aug-2013 21:54:00] PHP Fatal error:  Call to undefined function  age_suggestions2() in /home/electron/public_html/citytot/application/views/admin/admin-add-location-v.php on line 45
+[03-Aug-2013 22:01:14] PHP Fatal error:  Call to undefined function  age_suggestions2() in /home/electron/public_html/citytot/application/views/admin/admin-add-location-v.php on line 45
+[03-Aug-2013 23:16:03] PHP Fatal error:  Call to undefined method Locations_m::add_location() in /home/electron/public_html/citytot/application/controllers/admin_providers.php on line 51
+[03-Aug-2013 23:49:46] PHP Fatal error:  Method name must be a string in /home/electron/public_html/citytot/application/models/locations_m.php on line 22
+[15-Aug-2013 19:37:19] PHP Fatal error:  Cannot redeclare age_suggestions2() (previously declared in /home/electron/public_html/citytot/application/views/includes/header.php:120) in /home/electron/public_html/citytot/application/views/search-v.php on line 451
+[24-Aug-2013 16:51:16] PHP Parse error:  syntax error, unexpected ';', expecting T_STRING or T_VARIABLE or '{' or '$' in /home/electron/public_html/citytot/application/views/find_class_to_review-v.php on line 71
+[01-Sep-2013 20:15:22] PHP Fatal error:  Cannot use object of type stdClass as array in /home/electron/public_html/citytot/application/models/classes_m.php on line 82
+[01-Sep-2013 20:15:28] PHP Fatal error:  Cannot use object of type stdClass as array in /home/electron/public_html/citytot/application/models/classes_m.php on line 82
+[01-Sep-2013 20:15:29] PHP Fatal error:  Cannot use object of type stdClass as array in /home/electron/public_html/citytot/application/models/classes_m.php on line 82
+[01-Sep-2013 20:15:36] PHP Fatal error:  Cannot use object of type stdClass as array in /home/electron/public_html/citytot/application/models/classes_m.php on line 82
+[01-Sep-2013 20:19:36] PHP Fatal error:  Cannot use object of type stdClass as array in /home/electron/public_html/citytot/application/models/classes_m.php on line 81
+[02-Sep-2013 00:24:45] PHP Fatal error:  Cannot use object of type stdClass as array in /home/electron/public_html/citytot/application/models/classes_m.php on line 209
+[02-Sep-2013 00:27:33] PHP Fatal error:  Cannot use object of type stdClass as array in /home/electron/public_html/citytot/application/models/classes_m.php on line 146
+[02-Sep-2013 10:04:06] PHP Fatal error:  Call to a member function result() on a non-object in /home/electron/public_html/citytot/application/models/classes_m.php on line 64
+[02-Sep-2013 13:47:38] PHP Fatal error:  Cannot use object of type CI_DB_mysql_result as array in /home/electron/public_html/citytot/application/models/classes_m.php on line 239
+[02-Sep-2013 14:13:41] PHP Fatal error:  Cannot use object of type stdClass as array in /home/electron/public_html/citytot/application/views/search-v.php on line 105
